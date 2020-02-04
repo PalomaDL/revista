@@ -1,0 +1,25 @@
+.contenido {
+    width: 100%;
+    margin: 0 auto;
+    background-color: deeppink;
+  }
+  
+  .listad-noticias {
+    width: auto;
+  }
+  
+  .noticia {
+    width: 100%;
+    display: inline-block;
+    margin: 0.375em;
+    cursor: pointer;
+  }
+
+  .cuerpo img {
+    width: 210px;
+    height: 300px;
+  }
+  
+  .cuerpo p {
+    padding: 0.375em 0.625em;
+  }

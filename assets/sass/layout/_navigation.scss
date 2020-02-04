@@ -1,0 +1,36 @@
+.menu {
+  width: 100%;
+  padding: 1em;
+  border-bottom: 1px solid gray;
+}
+.menu__navbar {
+  display: inline-block;
+  width: 100%;
+  height: 7%;
+  text-align: right;
+  ul {
+    margin-left: auto;
+    display: inline-block;
+    li {
+      margin-right: 0.5rem;
+      display: inline-block;
+      vertical-align: middle;
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.input-menu {
+  border-radius: 30px;
+}
+
+.menu__logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+}
